@@ -20,12 +20,15 @@ Independent random value generator supporting a number of 1-D and 2-D continuous
 
   g = IRVaG::Unidimensional::Gaussian.new #=> #<IRVaG::Unidimensional::Gaussian:0x7f98682ede40 @std_dev=1.0, @mean=0.0>
 
+  g.next #=> 0.144596559755355
+
   require 'irvag/unidimensional/all'
 
   include IRVaG::Unidimensional
 
   u = Uniform.new((1.0/3)**0.5, 2) #=> #<IRVaG::Unidimensional::Uniform:0x7f98682cb340 @max_half_amp=1.0, @mean=2>
 
+  samples = Array.new(100) { g.next } #=> [0.144596559755355, -0.743176817531238, ...
 
 == REQUIREMENTS:
 
