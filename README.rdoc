@@ -1,6 +1,6 @@
 = IRVaG
 
-* http://github.com/adrianomitre/irvag
+* http://github.com/adrianomitre/IRVaG
 
 == DESCRIPTION:
 
