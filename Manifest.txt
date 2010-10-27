@@ -1,0 +1,16 @@
+History.txt
+Manifest.txt
+README.rdoc
+Rakefile
+lib/irvag/unidimensional.rb
+lib/irvag/unidimensional/uniform.rb
+lib/irvag/unidimensional/triangular.rb
+lib/irvag/unidimensional/all.rb
+lib/irvag/unidimensional/gaussian.rb
+lib/irvag.rb
+script/console
+script/destroy
+script/generate
+test/test_helper.rb
+test/test_irvag.rb
+
