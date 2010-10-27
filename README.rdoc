@@ -4,11 +4,14 @@
 
 == DESCRIPTION:
 
-Independent Random Value Generator. Initially targeted at 1-D signals, now also supports 2-D signals as well.
+Independent random value generator supporting a number of 1-D and 2-D continuous probability distributions.
 
-== FEATURES/PROBLEMS:
+== FEATURES:
 
-* Support for uniform, triangular and gaussian (aka normal) distributions both in 1-D and 2-D
+* Support for uniform, triangular and normal (aka gaussian) distributions both in 1-D and 2-D
+
+== PROBLEMS:
+
 * Complete lack of test code.
 
 == SYNOPSIS:
